@@ -98,10 +98,9 @@ This app is mobile-first and is best experienced on a smartphone browser. While 
 
 Arun Mohan
 Made entirely inside a browser using Glitch,GitHub Codespace and Acode — without a PC in mobile phone.
-
 From Kerala, India 🇮🇳
 
-
+Base ui idea: chatgpt
 ---
 
 📜 License
