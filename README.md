@@ -1,6 +1,12 @@
----
-
 # PickMeUp — Auto Booking Web App
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Django](https://img.shields.io/badge/Django-5.0-green)
+![WebSocket](https://img.shields.io/badge/Realtime-WebSocket-orange)
+![Mobile-Optimized](https://img.shields.io/badge/Mobile-First-blueviolet)
+![Made-in-Browser](https://img.shields.io/badge/Built%20in-Browser-black)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # (NOT COMPLETELY FINISHED)
 **PickMeUp** is a fully functional auto-rickshaw booking platform built using Django, Channels (for WebSocket real-time features), Leaflet.js (for maps), and a clean mobile-first UI.
 
@@ -54,6 +60,7 @@ autoapp/
 ├── static/         # Static files (CSS, JS)
 ├── asgi.py         # WebSocket routing via Channels
 └── routing.py      # URL router for Channels
+```
 
 
 ---
@@ -61,14 +68,16 @@ autoapp/
 ✅ Installation (for development)
 
 # Install dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # Run migrations
+```
 python3 manage.py makemigrations
 python3 manage.py migrate
+```
 
 # Start ASGI server (WebSocket + HTTP)
-uvicorn autoapp.asgi:application --host 0.0.0.0 --port 8000
+```uvicorn autoapp.asgi:application --host 0.0.0.0 --port 8000```
 
 > 📝 Ensure you are using Python 3.11+ and have uvicorn, channels, and Django installed properly.
 
@@ -102,3 +111,4 @@ This project is open-source and free to use for learning or personal experimenta
 ---
 
 
+Feel free contribute to this project.
