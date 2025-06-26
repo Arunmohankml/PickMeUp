@@ -5,6 +5,7 @@
 ![WebSocket](https://img.shields.io/badge/Realtime-WebSocket-orange)
 ![Mobile-Optimized](https://img.shields.io/badge/Mobile-First-blueviolet)
 ![Made-in-Browser](https://img.shields.io/badge/Built%20in-Browser-black)
+![Made in ACode](https://img.shields.io/badge/Made%20with-ACode-blue?logo=android)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # (NOT COMPLETELY FINISHED)
